@@ -57,7 +57,7 @@ if __name__ == "__main__":
         topic_dict[k] = 0
         topic_word_count[k] = 0
 
-    sample_iterations = 100
+    sample_iterations = 10
     for sample_itr in range(sample_iterations):
         for d in range(D):
             for j in range(len(docs[d])):
